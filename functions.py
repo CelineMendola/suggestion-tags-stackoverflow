@@ -88,3 +88,16 @@ def lemmatize(text):
     tokens = [token.lemma_ for token in doc if not (token.is_stop or token.is_punct)]
     return ' '.join(tokens)
 
+
+def clean_tags(x) :
+    x = x.lower()
+    x =  re.sub('><', ',', x)
+    x = re.sub(r'<','', x)
+    x = re.sub(r'>', '', x)
+    x = x.strip()
+    x = x.split(',')
+    return x
+
+
+
+
