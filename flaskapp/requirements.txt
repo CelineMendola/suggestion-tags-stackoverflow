@@ -1,0 +1,24 @@
+bs4
+docutils
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0/en_core_web_sm-3.1.0-py3-none-any.whl
+entrypoints==0.3
+et-xmlfile==1.1.0
+fastcache==1.1.0
+Flask
+flatbuffers==2.0
+fonttools==4.25.0
+gensim
+gunicorn
+joblib
+matplotlib
+nltk
+numpy==1.19.5
+numpydoc
+pandas
+pep8==1.7.1
+pkginfo==1.7.1
+scikit-learn
+scikit-multilearn
+scipy
+seaborn
+spacy
