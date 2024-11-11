@@ -17,6 +17,5 @@ The several models can be compared with the test.xlsx in the data folder. It is 
 In the flaskapp folder, the final model is implemented in model.py. It generates the preprocessing and prediction models in a pkl format. 
 Running app.py gives a localhosted user interface, styled by the home.html file in the templates folder. 
 The requirements.txt and Procfile files where created in order to deploy the application on the internet via heroku.  
-Link of the app : https://tagssuggestions.herokuapp.com/
 
 
